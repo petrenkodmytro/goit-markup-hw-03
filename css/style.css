@@ -11,7 +11,7 @@
   /* --border-cads: 1px solid #eeeeee; */
 }
 
-/* common */
+/* ----------common---------- */
 
 body {
   font-family: "Roboto", sans-serif;
@@ -21,7 +21,7 @@ body {
   background-color: var(--secondary-bg-color);
 }
 
-/* service */
+/* ----------service---------- */
 
 .link {
   text-decoration: none;
@@ -46,12 +46,43 @@ body {
 
 /* navigation */
 
-.nav {
+.page-header {
   background-color: var(--secondary-bg-color);
-  /* display: flex; */
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  width: 1200px;
+  height: 80px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.nav-container .item {
+  margin-right: 50px;
+}
+
+.nav-container .item:last-child {
+  margin-right: 0px;
+}
+
+.nav,
+.nav-link,
+.contact {
+  display: flex;
+  padding: 0;
+  align-items: center;
+}
+
+.contact {
+  margin-left: auto;
 }
 
 .logo {
+  display: block;
+  margin-right: 93px;
+
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -75,14 +106,18 @@ body {
   color: var(--secondary-color);
 }
 
-/* hero */
+/* ----------hero---------- */
 
 .hero {
+  height: 600px;
+  padding: 200px;
   background-color: var(--brand-bg-color);
   text-align: center;
 }
 
 .hero-title {
+  width: 696px;
+  margin: auto;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -93,6 +128,9 @@ body {
 }
 
 .btn-servise {
+  width: 216px;
+  height: 50px;
+  margin-top: 30px;
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
@@ -113,9 +151,30 @@ body {
   transition: 300ms;
 }
 
-/* advantages */
+/* ----------advantages---------- */
+
+.advantages {
+  padding-top: 94px;
+  background-color: #e39797;
+}
+.advantages-list {
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.advantages-list .item {
+  width: 270px;
+  margin-right: 30px;
+}
+
+.advantages-list .item:last-child {
+  margin-right: 0px;
+}
 
 .advantages-list-title {
+  margin: 0;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -127,45 +186,83 @@ body {
   color: var(--secondary-color);
 }
 
-/* work */
+/* ----------work---------- */
 
+.work {
+  padding-top: 94px;
+  background-color: #deecdd;
+}
 .work-title {
+  margin: 0 auto 50px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
 }
 
-/* team */
+.work-list {
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.work-list .item {
+  width: 370px;
+  margin-right: 30px;
+}
+
+.work-list .item:last-child {
+  margin-right: 0;
+}
+
+/* ----------team---------- */
 
 .team {
+  padding: 94px 0;
   background-color: var(--bg-color-btn-filter);
 }
 
-.team-list-item {
-  background-color: var(--secondary-bg-color);
-}
-
 .team-title {
+  margin: 0 auto 50px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
 }
 
+.team-list {
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.team-list-item {
+  width: 270px;
+  margin-right: 30px;
+  background-color: var(--secondary-bg-color);
+}
+
+.team-list-item:last-child {
+  margin-right: 0;
+}
+
 .team-list-title {
+  text-align: center;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
 }
 
 .team-list-item > p {
+  text-align: center;
   font-size: 16px;
   line-height: 1.19;
   color: var(--secondary-color);
 }
 
-/* filter */
+/* ----------filter---------- */
 
 .btn-filter {
   font-family: inherit;
@@ -195,11 +292,18 @@ body {
   color: var(--secondary-color);
 }
 
-/* footer */
+/* ----------footer---------- */
 
 .footer {
   background-color: var(--brand-bg-color);
   color: var(--secondary-bg-color);
+}
+
+.page-footer {
+  
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
 .footer-logo {
@@ -232,7 +336,7 @@ body {
   color: var(--footer-contact-item);
 }
 
-/* effects */
+/* ----------effects---------- */
 
 .nav-link-item:hover,
 .contact-item:hover,
