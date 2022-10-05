@@ -18,8 +18,8 @@
         <nav class="nav">
           <a class="logo link" href="./index.html"><span>Web</span>Studio</a>
           <ul class="nav-link list">
-            <li class="item"><a class="nav-link-item link" href="./index.html">Студія</a></li>
-            <li class="item"><a class="nav-link-item link current" href="./portfolio.html">Портфоліо</a></li>
+            <li class="item"><a class="nav-link-item link current" href="./index.html">Студія</a></li>
+            <li class="item"><a class="nav-link-item link" href="./portfolio.html">Портфоліо</a></li>
             <li class="item"><a class="nav-link-item link" href="#">Контакти</a></li>
           </ul>
         </nav>
@@ -36,88 +36,108 @@
 
     <main>
       <section class="filter">
-        <h1 class="visually-hidden">Фільтр портфоліо</h1>
-        <ul class="filter-list list container">
-          <li class="item"><button class="btn btn-filter" type="button">Усі</button></li>
-          <li class="item">
-            <button class="btn btn-filter" type="button">Веб-сайти</button>
-          </li>
-          <li class="item"><button class="btn btn-filter" type="button">Додатки</button></li>
-          <li class="item"><button class="btn btn-filter" type="button">Дизайн</button></li>
-          <li class="item">
-            <button class="btn btn-filter" type="button">Маркетинг</button>
-          </li>
-        </ul>
-        <ul class="cads-list list container">
-          <li class="item">
-            <a class="cads-list-item link" href="#">
-              <img src="./images/technocryck.jpg" width="370" alt="відкритий ноутбук, на екрані зображені фото картки" />
-              <h2>Технокряк</h2>
-              <p>Веб-сайт</p>
-            </a>
-          </li>
-          <li class="item">
-            <a class="cads-list-item link" href="#">
-              <img src="./images/poster.jpg" width="370" alt="два боскетболіста з м'ячем" />
-              <h2>Постер New Orlean vs Golden Star</h2>
-              <p>Дизайн</p>
-            </a>
-          </li>
-          <li class="item">
-            <a class="cads-list-item link" href="#">
-              <img src="./images/restoran.jpg" width="370" alt="силует риби - логотип ресторану" />
-              <h2>Ресторан Seafood</h2>
-              <p>Додаток</p>
-            </a>
-          </li>
-          <li class="item">
-            <a class="cads-list-item link" href="#">
-              <img src="./images/projectprime.jpg" width="370" alt="чоні навушники" />
-              <h2>Проєкт Prime</h2>
-              <p>Маркетинг</p>
-            </a>
-          </li>
-          <li class="item">
-            <a class="cads-list-item link" href="#">
-              <img src="./images/projectbox.jpg" width="370" alt="дві картонні коробочки білого та рожевого кольору" />
-              <h2>Проєкт Boxes</h2>
-              <p>Додаток</p>
-            </a>
-          </li>
-          <li class="item">
-            <a class="cads-list-item link" href="#">
-              <img src="./images/inspiration.jpg" width="370" alt="монітор коп'ютера" />
-              <h2>Inspiration has no Borders</h2>
-              <p>Веб-сайт</p>
-            </a>
-          </li>
-          <li class="item">
-            <a class="cads-list-item link" href="#">
-              <img src="./images/limitededition.jpg" width="370" alt="розгорнута книжка" />
-              <h2>Видання Limited Edition</h2>
-              <p>Дизайн</p>
-            </a>
-          </li>
-          <li class="item">
-            <a class="cads-list-item link" href="#">
-              <img src="./images/projectlab.jpg" width="370" alt="бирка білого кольору з написом" />
-              <h2>Проєкт LAB</h2>
-              <p>Маркетинг</p>
-            </a>
-          </li>
-          <li class="item">
-            <a class="cads-list-item link" href="#">
-              <img src="./images/growingbusiness.jpg" width="370" alt="людина працює за ноубуком" />
-              <h2>Growing Business</h2>
-              <p>Додаток</p>
-            </a>
-          </li>
-        </ul>
+        <div class="container">
+          <h1 class="visually-hidden">Фільтр портфоліо</h1>
+          <ul class="filter-list list">
+            <li class="item"><button class="btn btn-filter" type="button">Усі</button></li>
+            <li class="item">
+              <button class="btn btn-filter" type="button">Веб-сайти</button>
+            </li>
+            <li class="item"><button class="btn btn-filter" type="button">Додатки</button></li>
+            <li class="item"><button class="btn btn-filter" type="button">Дизайн</button></li>
+            <li class="item">
+              <button class="btn btn-filter" type="button">Маркетинг</button>
+            </li>
+          </ul>
+          <ul class="cads-list list">
+            <li class="item">
+              <a class="cads-list-item link" href="#">
+                <img src="./images/technocryck.jpg" width="370" alt="відкритий ноутбук, на екрані зображені фото картки" />
+                <div class="cads-content">
+                  <h2 class="cads-title">Технокряк</h2>
+                  <p class="cads-text">Веб-сайт</p>
+                </div>
+              </a>
+            </li>
+            <li class="item">
+              <a class="cads-list-item link" href="#">
+                <img src="./images/poster.jpg" width="370" alt="два боскетболіста з м'ячем" />
+                <div class="cads-content">
+                  <h2 class="cads-title">Постер New Orlean vs Golden Star</h2>
+                  <p class="cads-text">Дизайн</p>
+                </div>
+              </a>
+            </li>
+            <li class="item">
+              <a class="cads-list-item link" href="#">
+                <img src="./images/restoran.jpg" width="370" alt="силует риби - логотип ресторану" />
+                <div class="cads-content">
+                  <h2 class="cads-title">Ресторан Seafood</h2>
+                  <p class="cads-text">Додаток</p>
+                </div>
+              </a>
+            </li>
+            <li class="item">
+              <a class="cads-list-item link" href="#">
+                <img src="./images/projectprime.jpg" width="370" alt="чоні навушники" />
+                <div class="cads-content">
+                  <h2 class="cads-title">Проєкт Prime</h2>
+                  <p class="cads-text">Маркетинг</p>
+                </div>
+              </a>
+            </li>
+            <li class="item">
+              <a class="cads-list-item link" href="#">
+                <img src="./images/projectbox.jpg" width="370" alt="дві картонні коробочки білого та рожевого кольору" />
+                <div class="cads-content">
+                  <h2 class="cads-title">Проєкт Boxes</h2>
+                  <p class="cads-text">Додаток</p>
+                </div>
+              </a>
+            </li>
+            <li class="item">
+              <a class="cads-list-item link" href="#">
+                <img src="./images/inspiration.jpg" width="370" alt="монітор коп'ютера" />
+                <div class="cads-content">
+                  <h2 class="cads-title">Inspiration has no Borders</h2>
+                  <p class="cads-text">Веб-сайт</p>
+                </div>
+              </a>
+            </li>
+            <li class="item">
+              <a class="cads-list-item link" href="#">
+                <img src="./images/limitededition.jpg" width="370" alt="розгорнута книжка" />
+                <div class="cads-content">
+                  <h2 class="cads-title">Видання Limited Edition</h2>
+                  <p class="cads-text">Дизайн</p>
+                </div>
+              </a>
+            </li>
+            <li class="item">
+              <a class="cads-list-item link" href="#">
+                <img src="./images/projectlab.jpg" width="370" alt="бирка білого кольору з написом" />
+                <div class="cads-content">
+                  <h2 class="cads-title">Проєкт LAB</h2>
+                  <p class="cads-text">Маркетинг</p>
+                </div>
+              </a>
+            </li>
+            <li class="item">
+              <a class="cads-list-item link" href="#">
+                <img src="./images/growingbusiness.jpg" width="370" alt="людина працює за ноубуком" />
+                <div class="cads-content">
+                  <h2 class="cads-title">Growing Business</h2>
+                  <p class="cads-text">Додаток</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
 
     <footer class="footer">
-      <div class="page-footer">
+      <div class="page-footer container">
         <a class="footer-logo link" href="./index.html"><span>Web</span>Studio</a>
         <address>
           <ul class="footer-contact list">
