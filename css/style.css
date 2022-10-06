@@ -219,6 +219,7 @@ button {
 
 .work {
   padding-top: 94px;
+  padding-bottom: 94px;
 }
 .work-title {
   margin: 0 auto 50px;
@@ -374,10 +375,7 @@ button {
 
 .footer {
   background-color: var(--brand-bg-color);
-}
-
-.page-footer {
-  padding: 60px 15px;
+  padding: 60px 0;
 }
 
 .footer-logo {
